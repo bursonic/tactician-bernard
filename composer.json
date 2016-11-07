@@ -10,10 +10,24 @@
             "email": "mark.sagikazar@gmail.com"
         }
     ],
+     "repositories": [
+        {
+            "type":"package",
+            "package": {
+                "name": "bursonic/tactician",
+                "version":"master",
+                "source": {
+                    "url": "https://github.com/bursonic/tactician.git",
+                    "type": "git",
+                    "reference":"master"
+                }
+            }
+        }
+    ],
     "require": {
         "bernard/bernard": "^1.0@dev",
         "beberlei/assert": "^2.1",
-        "league/tactician": "^1.0"
+        "bursonic/tactician": "master"
     },
     "require-dev": {
         "phpspec/phpspec": "^2.5",
