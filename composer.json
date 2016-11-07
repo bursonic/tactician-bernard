@@ -1,5 +1,5 @@
 {
-    "name": "league/tactician-bernard",
+    "name": "bursonic/tactician-bernard",
     "description": "Queueing command bus plugin for Tactician based on Bernard",
     "license": "MIT",
     "keywords": ["bernard", "tactician", "command-bus", "message queue"],
